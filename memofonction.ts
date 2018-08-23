@@ -96,9 +96,9 @@ export class MemofonctionProvider {
             this.affichageMessage("Erreur ");
         });
       }).catch(err=>{
-        alert("SDFSDFS "+JSON.stringify(err));
+        alert("Erreur"+JSON.stringify(err));
       }).catch(err=>{
-        alert("okokoookok "+JSON.stringify(err));
+        alert("Error"+JSON.stringify(err));
       });
     });
   }
