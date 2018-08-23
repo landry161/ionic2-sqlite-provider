@@ -91,7 +91,6 @@ export class MemofonctionProvider {
           resolve(resultat);
         }).catch(erreur=>
           {
-            //alert("sdsfsfsf "+JSON.stringify(erreur));
             error(erreur);
             this.affichageMessage("Erreur ");
         });
